@@ -134,6 +134,140 @@ This project enables <b>home automation using hand gestures and IoT</b>, combini
 
 <h2>🏗️ Setup Steps</h2>
 
+<h2>🏗️ Step-by-Step Setup (Detailed)</h2>
+
+<ol>
+
+  <li>Build a small house model using cardboard, wood, or foam board.</li>
+
+  <li>Install LED bulbs in each room to simulate real home appliances.</li>
+
+  <li>Fix bulb holders properly and ensure safe placement of LEDs.</li>
+
+  <li>Route all wiring outside the model to keep connections visible and organized.</li>
+
+  <li>Label each room wire to avoid confusion during connections.</li>
+
+  <li>Set up a power distribution system using power modules.</li>
+
+  <li>Use Arduino Uno for handling gesture-based control logic.</li>
+
+  <li>Use ESP8266 module for WiFi and IoT communication.</li>
+
+  <li>Connect all room wires to the 4-channel relay module (COM and NO terminals).</li>
+
+  <li>Ensure each relay channel corresponds to one room/device.</li>
+
+  <li>Connect Arduino digital pins 8, 9, 10, and 11 to relay inputs I1, I2, I3, and I4.</li>
+
+  <li>Connect relay VCC to 5V and GND to GND from the power module.</li>
+
+  <li>Double-check all wiring connections before powering the circuit.</li>
+
+  <li>Open Visual Studio Code on your system.</li>
+
+  <li>Install PlatformIO extension inside VS Code.</li>
+
+  <li>Install Python (version 3.10.11 recommended) and add it to system PATH.</li>
+
+  <li>Install required VS Code extensions: Python and C/C++.</li>
+
+  <li>Create a new project folder for gesture recognition.</li>
+
+  <li>Open the project folder in VS Code.</li>
+
+  <li>Create a Python virtual environment using:</li>
+
+  <pre>python -m venv venv</pre>
+
+  <li>Activate the virtual environment:</li>
+
+  <pre>venv\Scripts\activate</pre>
+
+  <li>Install required Python libraries:</li>
+
+  <pre>pip install opencv-python mediapipe pyserial</pre>
+
+  <li>Create a Python script file (e.g., <code>gesture.py</code>).</li>
+
+  <li>Write or paste your OpenCV + MediaPipe hand tracking code.</li>
+
+  <li>Implement gesture logic (e.g., fingers count → command mapping).</li>
+
+  <li>Establish serial communication using PySerial.</li>
+
+  <li>Set correct COM port and baud rate (e.g., 9600).</li>
+
+  <li>Send control commands from Python to Arduino.</li>
+
+  <li>Create a new PlatformIO project for Arduino.</li>
+
+  <li>Select Arduino Uno board during project creation.</li>
+
+  <li>Open <code>src/main.cpp</code> file.</li>
+
+  <li>Write Arduino code to receive serial data.</li>
+
+  <li>Map received commands to relay control (HIGH/LOW).</li>
+
+  <li>Initialize serial communication using <code>Serial.begin(9600);</code>.</li>
+
+  <li>Set relay pins as OUTPUT using <code>pinMode()</code>.</li>
+
+  <li>Upload Arduino code using USB Type-B cable.</li>
+
+  <li>Open Serial Monitor (optional for debugging).</li>
+
+  <li>Run Python script to start gesture detection.</li>
+
+  <li>Verify that gestures correctly turn ON/OFF LEDs.</li>
+
+  <li>If not working, debug serial communication or wiring.</li>
+
+  <li>Create a new PlatformIO project for ESP8266.</li>
+
+  <li>Select appropriate ESP8266 board (e.g., ESP-12E).</li>
+
+  <li>Go to Sinric Pro website and create an account.</li>
+
+  <li>Create devices (switch type) inside Sinric Pro dashboard.</li>
+
+  <li>Copy API Key, API Secret, and Device IDs.</li>
+
+  <li>Paste credentials inside ESP8266 code.</li>
+
+  <li>Add WiFi SSID and password in the code.</li>
+
+  <li>Add Sinric Pro library in <code>platform.ini</code>.</li>
+
+  <li>Write code to handle device ON/OFF callbacks.</li>
+
+  <li>Connect ESP8266 relay module (2-channel) properly.</li>
+
+  <li>Upload code to ESP8266.</li>
+
+  <li>Ensure your WiFi network is 2.4 GHz.</li>
+
+  <li>Open Sinric Pro mobile app.</li>
+
+  <li>Test turning devices ON/OFF from the app.</li>
+
+  <li>Verify that relays respond correctly.</li>
+
+  <li>Integrate both systems (gesture + IoT).</li>
+
+  <li>Test the complete system thoroughly.</li>
+
+  <li>Fix any delay, misfire, or wiring issues.</li>
+
+  <li>Finalize the project setup and ensure stable performance.</li>
+
+</ol>
+
+
+
+
+
 <ol>
   <li>Build house model</li>
   <li>Connect LEDs to relays</li>
