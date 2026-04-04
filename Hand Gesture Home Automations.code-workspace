@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Hand Gesture Home Automations",
+			"path": "C:/Users/smart/OneDrive/Documents/PlatformIO/Projects/Hand Gesture Home Automations"
+		},
+		{
+			"name": "Outside-lights",
+			"path": "C:/Users/smart/OneDrive/Documents/PlatformIO/Projects/Outside-lights"
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
+}
