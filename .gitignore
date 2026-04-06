@@ -1,2 +1,18 @@
 .pio/
 .vscode/
+# PlatformIO
+.pio/
+.vscode/
+
+# Build files
+*.bin
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
