@@ -275,12 +275,6 @@ This project combines <b>Computer Vision and IoT</b> to build a smart automation
 
 ---
 
-<h2>📜 License</h2>
-
-<p>MIT License</p>
-
----
-
 <h2>⭐ Support</h2>
 
 <p>If you like this project, give it a ⭐ on GitHub.</p>
