@@ -30,22 +30,22 @@ This project enables <b>home automation using hand gestures and IoT</b>, combini
 <h2>📸 Project Preview</h2>
 
 <h3>🏠 Model (Day)</h3>
-<img src="assets/images/model-day.jpg" width="600"/>
+<img src="assets/Project Preview/model-day.jpg" width="600"/>
 
 <h3>🌙 Model (Night View)</h3>
-<img src="assets/images/model-night-1.jpg" width="600"/>
-<img src="assets/images/model-night-2.jpg" width="600"/>
-<img src="assets/images/model-night-3.jpg" width="600"/>
+<img src="assets/Project Preview/model-night-1.jpg" width="600"/>
+<img src="assets/Project Preview/model-night-2.jpg" width="600"/>
+<img src="assets/Project Preview/model-night-3.jpg" width="600"/>
 
 <h3>🔌 Hardware Setup</h3>
-<img src="assets/images/arduino-wiring.jpg" width="600"/>
-<img src="assets/images/esp8266-wiring.jpg" width="600"/>
+<img src="assets/Project Preview/arduino-wiring.jpg" width="600"/>
+<img src="assets/Project Preview/esp8266-wiring.jpg" width="600"/>
 
 <h3>📐 Different Views</h3>
-<img src="assets/images/top-view.jpg" width="600"/>
-<img src="assets/images/leftside-view.jpg" width="600"/>
-<img src="assets/images/rightside-view.jpg" width="600"/>
-<img src="assets/images/back-view.jpg" width="600"/>
+<img src="assets/Project Preview/top-view.jpg" width="600"/>
+<img src="assets/Project Preview/leftside-view.jpg" width="600"/>
+<img src="assets/Project Preview/rightside-view.jpg" width="600"/>
+<img src="assets/Project Preview/back-view.jpg" width="600"/>
 
 ---
 
