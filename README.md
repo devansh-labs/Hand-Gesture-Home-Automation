@@ -83,9 +83,12 @@ This project enables <b>home automation using hand gestures and IoT</b>, combini
 
 <h2>🖼️ Architecture Diagram</h2>
 
-<pre>
-&lt;img src="docs/images/architecture.png" width="700"/&gt;
-</pre>
+<h3>🏠 Indoor Lighting</h3>
+<img src="assets/Architecture Diagram/indoor-lighting.png" width="700"/>
+
+<h3>🌳 Outdoor Lighting</h3>
+<img src="assets/Architecture Diagram/outdoor lighting.png" width="700"/>
+
 
 ---
 
