@@ -29,20 +29,23 @@ This project enables <b>home automation using hand gestures and IoT</b>, combini
 
 <h2>📸 Project Preview</h2>
 
-<p>🔴 Add your screenshots below:</p>
+<h3>🏠 Model (Day)</h3>
+<img src="assets/images/model-day.jpg" width="600"/>
 
-<pre>
-&lt;img src="docs/images/gesture.png" width="600"/&gt;
-&lt;img src="docs/images/hardware.png" width="600"/&gt;
-&lt;img src="docs/images/app.png" width="600"/&gt;
-</pre>
+<h3>🌙 Model (Night View)</h3>
+<img src="assets/images/model-night-1.jpg" width="600"/>
+<img src="assets/images/model-night-2.jpg" width="600"/>
+<img src="assets/images/model-night-3.jpg" width="600"/>
 
-<p><b>How to add screenshots:</b></p>
-<ol>
-  <li>Create folder: <code>docs/images/</code></li>
-  <li>Put your images inside it</li>
-  <li>Replace filenames above</li>
-</ol>
+<h3>🔌 Hardware Setup</h3>
+<img src="assets/images/arduino-wiring.jpg" width="600"/>
+<img src="assets/images/esp8266-wiring.jpg" width="600"/>
+
+<h3>📐 Different Views</h3>
+<img src="assets/images/top-view.jpg" width="600"/>
+<img src="assets/images/leftside-view.jpg" width="600"/>
+<img src="assets/images/rightside-view.jpg" width="600"/>
+<img src="assets/images/back-view.jpg" width="600"/>
 
 ---
 
