@@ -16,8 +16,9 @@ Finger state (open/closed) is detected and corresponding signals are sent
 to the microcontroller.
 """
 
-import serial
+
 import cv2
+import serial
 import mediapipe as mp
 
 
@@ -25,7 +26,7 @@ import mediapipe as mp
 
 # Initialize serial communication
 # NOTE: Update COM port and baud rate according to your system
-ser = serial.Serial('COM5', 9600)
+ser = serial.Serial('COM7', 9600)
 
 # Initialize MediaPipe Hands model
 mp_hands = mp.solutions.hands
